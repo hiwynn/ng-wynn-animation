@@ -1,4 +1,4 @@
-# AngularAnimation
+# Angular Animation
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.2.
 
@@ -22,6 +22,22 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+## 使用 ng-wynn-animation
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+1. 引入文件 `/src/app/ng-wynn-animation`
+2. 引入模块 `NgWynnAnimationModule`
+3. 在 `AppComponent` 的 `styleUrls` 中引入 `src/app/ng-wynn-animation/ng-wynn-animation.css`;
+4. 在任何想使用动画的地方加上动画的属性型指令名称和时间（毫秒）就能实现动画：
+ ```
+    <div class="item" [scaleShow]="500">item 1</div>
+    <div class="item" [scaleShow]="600">item 2</div>
+    <div class="item" [scaleShow]="700">item 3</div>
+```
+
+### 动画的指令名称:
+
+动画|指令名称
+:-|:-
+Scale |scaleShow
+Rotate |rotateShow
+Fall |fallShow
