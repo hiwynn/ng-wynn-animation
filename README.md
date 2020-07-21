@@ -24,8 +24,8 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## 使用 ng-wynn-animation
 
-1. 引入文件 `/src/app/ng-wynn-animation`
-2. 引入模块 `NgWynnAnimationModule`
+1. 在项目中引入文件 `/src/app/ng-wynn-animation`，置于路径 `/src/app/` 下
+2. 在 `AppModule`中 引入模块 `NgWynnAnimationModule`
 3. 在 `AppComponent` 的 `styleUrls` 中引入 `src/app/ng-wynn-animation/ng-wynn-animation.css`;
 4. 在任何想使用动画的地方加上动画的属性型指令名称和时间（毫秒）就能实现动画：
  ```
