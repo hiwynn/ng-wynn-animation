@@ -1,20 +1,45 @@
-@keyframes scale {
+@keyframes wy-scale {
   0% {
     transform: scale(0);
-    opacity: 0;
   }
 }
 
-@keyframes rotate {
+@keyframes wy-rotate {
   0% {
     transform: rotate3d(1, 1, 1, 100deg) scale(0);
     opacity: 0;
   }
 }
 
-@keyframes fall {
+@keyframes wy-fall {
   0% {
     transform: translateY(-150px);
     opacity: 0;
   }
 }
+
+@keyframes wy-widen {
+  0% {
+    transform: scaleX(0);
+  }
+}
+
+@keyframes wy-color {
+  0% {
+    background-color: #fff;
+  }
+}
+
+@keyframes wy-wave {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+

@@ -9,6 +9,10 @@
 }
 
 .content {
+  background-color: #EEE;
+}
+
+.content {
   padding: 50px 10px 0;
 }
 
@@ -24,7 +28,7 @@
   overflow: hidden;
 }
 
-.fall .item {
+.fall .item, .wave .item {
   flex: 10%;
   height: 220px;
   line-height: 220px;

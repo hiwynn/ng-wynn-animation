@@ -11,7 +11,7 @@ export class FallDirective implements OnInit {
   @Input('fallShow') completeTime: number;
 
   ngOnInit(): void {
-    this.el.nativeElement.style.animation = 'fall ' + this.completeTime / 1000 + 's';
+    this.el.nativeElement.style.animation = 'wy-fall ' + this.completeTime / 1000 + 's';
   }
 
 }

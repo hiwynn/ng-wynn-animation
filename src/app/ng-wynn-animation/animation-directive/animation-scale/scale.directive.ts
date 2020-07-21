@@ -11,7 +11,7 @@ export class ScaleDirective implements OnInit {
   @Input('scaleShow') completeTime: number;
 
   ngOnInit(): void {
-    this.el.nativeElement.style.animation = 'scale ' + this.completeTime / 1000 + 's';
+    this.el.nativeElement.style.animation = 'wy-scale ' + this.completeTime / 1000 + 's';
   }
 
 }

@@ -11,7 +11,7 @@ export class RotateDirective implements OnInit {
   @Input('rotateShow') completeTime: number;
 
   ngOnInit(): void {
-    this.el.nativeElement.style.animation = 'rotate ' + this.completeTime / 1000 + 's';
+    this.el.nativeElement.style.animation = 'wy-rotate ' + this.completeTime / 1000 + 's';
   }
 
 }
